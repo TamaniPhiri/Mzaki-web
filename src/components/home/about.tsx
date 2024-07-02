@@ -5,7 +5,7 @@ const About = () => {
       id="about"
       className=" bg-black min-h-screen text-white grid grid-cols-1 md:grid-cols-2 w-full"
     >
-      <div className="h-full flex items-center justify-center">
+      <div className="h-full flex items-center justify-center order-last md:order-first">
         <div className="h-[500px] w-fit">
           <img
             src={img}
@@ -15,7 +15,7 @@ const About = () => {
           />
         </div>
       </div>
-      <div>about</div>
+      <div className="">about</div>
     </div>
   );
 };
