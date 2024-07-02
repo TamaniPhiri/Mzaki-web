@@ -42,4 +42,8 @@ const links = [
     name: "About",
     id: "about",
   },
+  {
+    name: "Products",
+    id: "products",
+  },
 ];
