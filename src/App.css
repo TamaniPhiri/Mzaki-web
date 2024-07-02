@@ -2,15 +2,16 @@
 @tailwind utilities;
 @tailwind components;
 
+body,
+html,
+:root {
+  height: 100%;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: "Libre Franklin", sans-serif;
   font-optical-sizing: auto;
-}
-
-body,
-html {
-  height: 100%;
 }
