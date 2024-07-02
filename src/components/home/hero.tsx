@@ -4,7 +4,10 @@ import Google from "../../assets/Google";
 
 const Hero = () => {
   return (
-    <section className="h-full min-h-screen grid md:grid-cols-2 grid-cols-1 px-4 md:px-8">
+    <section
+      id="home"
+      className="h-full min-h-screen grid md:grid-cols-2 grid-cols-1 px-4 md:px-8"
+    >
       <div className="h-full flex flex-col gap-4 justify-center md:items-start items-center md:text-left text-center">
         <div className="h-16 w-36">
           <img
@@ -23,12 +26,12 @@ const Hero = () => {
           </span>
         </h1>
         <p className="text-balance max-w-sm">
-          seamlessly connect with our extensive offerings and expert service
+          Seamlessly connect with our extensive offerings and expert service
           providers, making it easier than ever to stay stylish and
           well-groomed.
         </p>
         <div>
-          <button>
+          <button className=" active:scale-95 duration-100 delay-75">
             <Google />
           </button>
         </div>
