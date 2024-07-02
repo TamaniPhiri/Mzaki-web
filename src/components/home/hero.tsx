@@ -1,4 +1,5 @@
 import logo from "../../assets/logoMzaki.png";
+import img from "../../assets/frame1.png";
 
 const Hero = () => {
   return (
@@ -12,18 +13,20 @@ const Hero = () => {
             className=" object-cover object-center h-full w-full"
           />
         </div>
-        <h1>
+        <h1 className=" text-4xl font-bold">
           My Plug
           <br />
           by <span>MEZAKI’S COLLECTION</span>
         </h1>
-        <p>
+        <p className="text-balance">
           seamlessly connect with our extensive offerings and expert service
           providers, making it easier than ever to stay stylish and
           well-groomed.
         </p>
       </div>
-      <div>2</div>
+      <div>
+        <img src={img} alt="frame1" loading="lazy" />
+      </div>
     </section>
   );
 };
