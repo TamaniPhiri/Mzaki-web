@@ -12,8 +12,8 @@ const Products = () => {
         Our Products
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <div className="category rounded-lg shadow-md overflow-hidden shadow-slate-950">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
+        <div className="category rounded-lg shadow-md overflow-hidden shadow-slate-950 cursor-pointer">
           <img src={woman} alt={woman} className="w-full h-64 object-cover" />
           <div className="px-4 py-2 bg-white">
             <h3 className="text-xl font-bold text-gray-800 mb-2">
@@ -30,7 +30,7 @@ const Products = () => {
             </a>
           </div>
         </div>
-        <div className="category rounded-lg shadow-md overflow-hidden shadow-slate-950">
+        <div className="category rounded-lg shadow-md overflow-hidden shadow-slate-950 cursor-pointer">
           <img src={nails} alt={nails} className="w-full h-64 object-cover" />
           <div className="px-4 py-2 bg-white">
             <h3 className="text-xl font-bold text-gray-800 mb-2">
@@ -47,7 +47,7 @@ const Products = () => {
             </a>
           </div>
         </div>
-        <div className="category rounded-lg shadow-md overflow-hidden shadow-slate-950">
+        <div className="category rounded-lg shadow-md overflow-hidden shadow-slate-950 cursor-pointer">
           <img src={female} alt={female} className="w-full h-64 object-cover" />
           <div className="px-4 py-2 bg-white">
             <h3 className="text-xl font-bold text-gray-800 mb-2">
