@@ -8,12 +8,12 @@ const Products = () => {
       id="products"
       className="min-h-screen px-4 md:px-8 w-full bg-gray-100 py-4 md:py-8 items-center flex flex-col justify-center"
     >
-      <h1 className="text-center text-5xl font-extrabold text-gray-800 mb-8">
+      <h1 className="text-center text-5xl font-extrabold text-gray-800 md:mb-6 mb-2">
         Our Products
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
-        <div className="category rounded-lg shadow-md overflow-hidden shadow-slate-950 cursor-pointer">
+      <div className="grid grid-cols-1 md:grid-cols-3 md:gap-4 gap-6 mt-8">
+        <div className="category rounded-lg shadow-md overflow-hidden shadow-slate-950 cursor-pointer transition duration-300 ease-in-out hover:transform hover:translate-y-2">
           <img src={woman} alt={woman} className="w-full h-64 object-cover" />
           <div className="px-4 py-2 bg-white">
             <h3 className="text-xl font-bold text-gray-800 mb-2">
@@ -30,7 +30,7 @@ const Products = () => {
             </a>
           </div>
         </div>
-        <div className="category rounded-lg shadow-md overflow-hidden shadow-slate-950 cursor-pointer">
+        <div className="category rounded-lg shadow-md overflow-hidden shadow-slate-950 cursor-pointer transition duration-300 ease-in-out hover:transform hover:translate-y-2">
           <img src={nails} alt={nails} className="w-full h-64 object-cover" />
           <div className="px-4 py-2 bg-white">
             <h3 className="text-xl font-bold text-gray-800 mb-2">
@@ -47,7 +47,7 @@ const Products = () => {
             </a>
           </div>
         </div>
-        <div className="category rounded-lg shadow-md overflow-hidden shadow-slate-950 cursor-pointer">
+        <div className="category rounded-lg shadow-md overflow-hidden shadow-slate-950 cursor-pointer transition duration-300 ease-in-out hover:transform hover:translate-y-2">
           <img src={female} alt={female} className="w-full h-64 object-cover" />
           <div className="px-4 py-2 bg-white">
             <h3 className="text-xl font-bold text-gray-800 mb-2">
