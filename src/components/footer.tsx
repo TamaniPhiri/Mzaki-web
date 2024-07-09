@@ -4,7 +4,7 @@ const footer = () => {
       <h1 className="font-extrabold md:text-start text-center">
         MEZAKI’S <br /> COLLECTION
       </h1>
-      <div className="flex md:hidden flex-col py-2">
+      <div className="flex md:hidden flex-col mt-2">
         <p className="md:text-end text-center mb-1 text-gray-300">
           Follow Us On
         </p>
