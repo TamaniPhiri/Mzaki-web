@@ -1,4 +1,4 @@
-const footer = () => {
+const Footer = () => {
   return (
     <footer className="bg-[#000000] p-4 text-white w-full flex md:flex-row flex-col justify-between items-center">
       <h1 className="font-extrabold md:text-start text-center">
@@ -41,6 +41,7 @@ const footer = () => {
           </a>
         </div>
       </div>
+      <div className="md:hidden flex border-t-2 border-gray-300 w-full mt-4 md:mt-0 md:border-none"></div>
       <p className="md:py-0 p-3 text-center">
         Copyright © 2024 Mezaki's Collection.
       </p>
@@ -83,4 +84,4 @@ const footer = () => {
   );
 };
 
-export default footer;
+export default Footer;
